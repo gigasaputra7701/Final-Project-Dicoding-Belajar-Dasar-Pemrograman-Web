@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,81 +9,71 @@
   <body>
     <header>
       <nav>
-        <div class="logo-gg">
-          <h2>Portfolio</h2>
-        </div>
+        <h2>Portfolio</h2>
         <ul id="list" class="hidden">
           <li><a href="#About">About</a></li>
           <li><a href="#Portfolio">Portfolio</a></li>
           <li><a href="#Achievment">Achievment</a></li>
-          <li><a href="#Contact">Contact Us</a></li>
+          <li><a href="#Contact" class="Contact">Contact Us</a></li>
         </ul>
-        <div id="menu" class="menu">
-          <i class="fa-solid fa-bars" style="color: #ffffff"></i>
-        </div>
       </nav>
-    </header>
 
-    <main>
-      <!-- Article 1 -->
-      <div class="container1" id="About">
+      <article class="header-content" id="About">
         <div class="satu">
-          <img src="img/giga.png" alt="" />
+          <img src="img/header.png" alt="" />
         </div>
         <div class="dua">
-          <article>
-            <h2>Freelance</h2>
-            <h4>Graphic Design |Frontend Developer | UI-UX Design</h4>
-            <p>
-              Hello!! I'm Muhammad Muqsith Giga Saputra. Freshgraduate of the
-              Department of Informatics Engineering Sriwijaya University. I have
-              specializes in Frontend Web Developer, UI / UX Design and Graphics
-              Design.
-            </p>
-            <button class="button">GET STARTED</button>
-          </article>
+          <h2>Freelance</h2>
+          <h4>Graphic Design | Frontend Developer | UI-UX Design</h4>
+          <p>
+            Hello!! I'm Muhammad Muqsith Giga Saputra. Freshgraduate of the
+            Department of Informatics Engineering Sriwijaya University. I have
+            specializes in Frontend Web Developer, UI / UX Design and Graphics
+            Design.
+          </p>
+          <button class="button">GET STARTED</button>
         </div>
-      </div>
-
-      <!-- Article 2 -->
-      <div class="container2" id="Portfolio">
+      </article>
+    </header>
+    <main>
+      <!-- Article 1 -->
+      <article class="article1" id="Portfolio">
         <div class="tiga">
           <img src="img/portfolio.png" alt="" />
         </div>
-        <div class="empat">
-          <article>
-            <h2>Portfolio</h2>
-            <h4>South Sumatera</h4>
-            <p>
-              Responsible for the process of creating client websites based on
-              client requests. Present Design merchandise based on client
-              requests. Optimizing the client's website by adding several
-              features so as to increase the efficiency of using the website.
-            </p>
-            <div class="wrap">
-              <button class="button">
-                <a
-                  href="https://drive.google.com/file/d/1NAd0t4AMd3pFKUeUSZCeGzmNG4B0OuSj/view?usp=sharing"
-                  >Portfolio</a
-                >
-              </button>
-              <button class="button2">
-                <a
-                  href="https://drive.google.com/drive/folders/1iV2Oy-Qxl8xrCw5Fbdw0O9BQeQwHSmuU?usp=drive_link"
-                >
-                  G-Drive
-                </a>
-              </button>
-            </div>
-          </article>
+        <div class="empat" >
+          <h2>Portfolio</h2>
+          <h4>Palembang City | South Sumatera</h4>
+          <p>
+            Responsible for the process of creating client websites based on
+            client requests. Present Design merchandise based on client
+            requests. Optimizing the client's website by adding several features
+            so as to increase the efficiency of using the website.
+          </p>
+          <div class="wrap">
+            <button class="button">
+              <a
+                href="https://drive.google.com/file/d/1NAd0t4AMd3pFKUeUSZCeGzmNG4B0OuSj/view?usp=sharing"
+                target="_blank"
+                >Portfolio</a
+              >
+            </button>
+            <button class="button2">
+              <a
+                href="https://drive.google.com/drive/folders/1iV2Oy-Qxl8xrCw5Fbdw0O9BQeQwHSmuU?usp=drive_link"
+                target="_blank"
+              >
+                G-Drive
+              </a>
+            </button>
+          </div>
         </div>
-      </div>
-      <!-- Article 3 -->
-      <div class="container3" id="Achievment">
-        <div class="lima">
-          <h2>Achievements, Skills, Languange</h2>
-        </div>
-        <article class="article">
+      </article>
+
+      <!-- Article 2 -->
+      <article class="article2" id="Achievment">
+        <h2>Achievements, Skills, Languange</h2>
+        <div class="wrap-article2">
           <div class="tujuh">
             <img class="card-img" id="card" src="img/azamaisyah.png" />
             <div class="enam">
@@ -135,27 +124,58 @@
             <h4>Language</h4>
             <p>Indonesia (Native) | English (Intermediate)</p>
           </div>
-        </article>
-      </div>
-    </main>
+        </div>
+      </article>
 
+      <!-- Aside  -->
+      <aside>
+        <h2>Contact Us</h2>
+        <article class="aside">
+          <img src="img/giga.png"/>
+          <section class="biodata">
+            <table class="info">
+              <tr>
+                <th>Name</th>
+                <td>Muhammad Muqsith Giga Saputra</td>
+              </tr>
+              <tr>
+                <th>City</th>
+                <td>Palembang</td>
+              </tr>
+              <tr>
+                <th>Education</th>
+                <td>Informatic Engineeringa (S1)</td>
+              </tr>
+              <tr>
+                <th>Hard Skill</th>
+                <td>
+                  Ms.Office,Figma, Canva, Photoshop, MySQL,
+                  Python, PHP, JavaScript, Bootstrap, Tailwind.
+                </td>
+              </tr>
+              <tr>
+                <th>Whatsapp</th>
+                <td>+62 89630785899</td>
+              </tr>
+            </table>
+          </section>
+        </article>
+      </aside>
+    </main>
     <footer>
-      <div class="container-footer">
-        <div class="content-footer">
-          <p>Copyright© 2023 All Rights Reserved.</p>
-        </div>
-        <div class="sosmed" id="Contact">
-          <a href="https://www.instagram.com/gigasptra/">
-            <i class="fa-brands fa-instagram"></i
-          ></a>
-          <a href="https://www.linkedin.com/in/muhammad-muqsith-giga-saputra/"
-            ><i class="fa-brands fa-linkedin-in"></i
-          ></a>
-          <a href="https://github.com/gigasaputra7701"
-            ><i class="fa-brands fa-github"></i
-          ></a>
-          <a href=""><i class="fa-brands fa-whatsapp"></i></a>
-        </div>
+      <div class="content-footer">
+        <p>Copyright© 2023 All Rights Reserved.</p>
+      <div class="sosmed" id="Contact">
+        <a href="https://www.instagram.com/gigasptra/" target="_blank">
+          <i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/muhammad-muqsith-giga-saputra/" target="_blank"
+          ><i class="fa-brands fa-linkedin-in"></i
+        ></a>
+        <a href="https://github.com/gigasaputra7701" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href=""><i class="fa-brands fa-whatsapp" target="_blank"></i></a>
       </div>
     </footer>
   </body>
